@@ -1,0 +1,63 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    }
+th, td {
+    padding: 8px;
+    ;
+    }
+th {
+    background-color:white;
+    }
+tr:nth-child(even) {
+    background-color: #ccc;    
+    }
+tr:nth-child(odd) {
+    background-color:#f9f9f9; 
+    }
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+body{
+    background-color: white;
+}
+h1{
+    font-style: italic;
+    justify-content: center;
+}
+#app {
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+
+  table {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+   
+   
+  }
+
+  /* Custom CSS for pagination */
+  .pagination {
+      margin-top: 20px;
+  }
+  .pagination .page-item {
+      cursor: pointer;
+  }
+  .pagination .page-item.active .page-link {
+      background-color: #007bff;
+      border-color: #007bff;
+  }
